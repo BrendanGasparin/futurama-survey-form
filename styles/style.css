@@ -19,6 +19,7 @@ select {
 
 .form-choice, .checkbox-choice, .button-div {
   font-size: 1.3em;
+  padding-top: 2%;
   padding-bottom: 2%;
   width: 85%;
   margin: auto;
@@ -30,6 +31,11 @@ select {
   
 .button-div {
  text-align: right;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-wrap: wrap;
 }
   
 #page {
